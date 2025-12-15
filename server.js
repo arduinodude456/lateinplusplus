@@ -1,6 +1,7 @@
 const WebSocket = require("ws");
 
-const server = new WebSocket.Server({ port: process.env.PORT || 3000 });
+const PORT = process.env.PORT || 3000;
+const server = new WebSocket.Server({ port: PORT });
 
 let clients = [];
 
@@ -21,4 +22,4 @@ server.on("connection", (ws) => {
   });
 });
 
-console.log("Cloud-Server läuft!");
+console.log(`Cloud-Server läuft auf Port ${PORT}`);
