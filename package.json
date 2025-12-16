@@ -4,7 +4,7 @@
   "description": "Cloud-Server",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
 "dependencies": {
   "winston": "^3.x.x",
