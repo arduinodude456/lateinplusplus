@@ -1,12 +1,12 @@
 {
-  "name": "cloud-server",
+  "name": "lateinplusplus",
   "version": "1.0.0",
-  "description": "Ein einfacher Cloud-Variablen-Server für TurboWarp",
+  "description": "Cloud-Server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.18.0"
+    "winston": "^3.8.2"
   }
 }
