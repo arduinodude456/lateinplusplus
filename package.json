@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
-    "winston": "^3.8.2"
-  }
+"dependencies": {
+  "winston": "^3.x.x",
+  "ws": "^8.x.x"
+}
 }
