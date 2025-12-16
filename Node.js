@@ -1,7 +1,7 @@
 const WebSocket = require("ws");
 
 // Adresse deines bestehenden TurboWarp-Cloud-Servers
-const TARGET = "wss://DEIN-SERVER.onrender.com"; 
+const TARGET = "wss://lateinplusplus.onrender.com"; 
 
 // Adapter-Server (nimmt Packager-Cloud-Protokoll an)
 const adapter = new WebSocket.Server({
